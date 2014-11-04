@@ -26,7 +26,7 @@ except Exception as e:
 DEBUG = False
 
 #Parsing local CSV.
-location = r'/Users/alisonmetz/Desktop/WorkingWithOpenData/FarmersMarkets.csv'
+location = r'/Desktop/WorkingWithOpenData/FarmersMarkets.csv'
 df = pd.read_csv(location)
 df = pd.DataFrame.from_csv(location)
 df.columns
