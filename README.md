@@ -1,11 +1,18 @@
 Farmers-Market-Trends
 =====================
-### General Overview ###
+
+>  The Department of Agriculture recently released over 8,000 detailed locations of farmers markets in the U.S. With      this data, my goal was to find trends that relate number of farmers markets per state (or county) and the obesity       rates of said locations. This will perhaps give insight to trends in obesity and availability of farmers markets.      Some libraries used include Matplotlib, Folium (mapping coordinates), pandas, numpy, and quite a bit more.
+
+#### General Overview ####
 ```
   Working with Open Data, this script uses iPython in combination with a number of libraries.
   The Dataset: U.S. Dept. of Agriculture Farmers Markets (2012)
 ```
-### Findings ###
+
+
+__Dataset Queryable Keys__
+![](http://i.imgur.com/2JPzrps.png)
+#### Findings ####
 _Top 5 States with Highest Numbers of Farmers Markets_
 ```
  1) California: 754
@@ -14,6 +21,8 @@ _Top 5 States with Highest Numbers of Farmers Markets_
  4) Michigan: 330
  5) Ohio: 300
 ```
+
+![](http://i.imgur.com/Kqif5lv.png)
 
 _Bottom 4 States_
 ```
@@ -31,7 +40,12 @@ _Percentage of Farmers Markets vs. Fast Food_
   Michigan   -> 22:1 Ratio (Fast Food / Farmers Markets)
 ```
 
-### Library Dependencies ###
+![](http://i.imgur.com/kWsMzed.png)
+
+![](http://i.imgur.com/RiziZZw.png)
+![](http://i.imgur.com/5Ky0pvv.png)
+
+#### Library Dependencies ####
 ```
   - Pandas
   - Matplotlib
@@ -41,9 +55,6 @@ _Percentage of Farmers Markets vs. Fast Food_
   - Folium
 
 ```
-
-
-
 
 
 
